@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نـيـــو فـيــــــــــــسـتا للخدمات السياحية والحكومية</title>
+    <link rel="stylesheet" href="./CSS-style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />  <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--AOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <style>
+        .parent {
+        position: relative;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        }
+        .swiper {
+            width: 500px;
+            height: 240px;
+        }
+        .swiper-slide img {
+        width:75%;
+        object-fit: cover;
+        border-radius: 30px;
+        }
+        .parent .text{
+            text-align: right;
+            color: #000;
+        }
+        .text .privet{
+        width: 460px;
+        margin: 20px 0px;
+        font-size: 21px;
+        }
+        .text span{
+            font-size: 23px;
+            font-weight: 800;
+        }
+        @media (max-width: 768px) {
+            .parent{
+                flex-wrap: wrap;
+                text-align: center;
+                gap: 7rem;
+                padding: 2rem 0;
+            }
+            .swiper-slide  {
+            width: 100%;
+            height: 100%;
+            padding: 5px ;
+            }
+            .swiper-slide img {
+            width: 300px;
+            /* height: 100%; */
+            }
+            .swiper {
+                margin: 0 auto;
+                border:none;
+                width: 320px;
+                height: 180px;
+                overflow: hidden;
+            }
+            .parent .text{
+                text-align: center;
+            } 
+            .text span{
+                text-align: center;
+                margin: 0 auto;
+            }
+            .text .privet{
+                font-size: 14px;
+                width: 338px;
+                margin: 10px auto;
+                text-align: center;
+                font-weight: 600;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <a href="./index.html" class="logo"><img src="./image-home/img/new-logo.png" alt="logo" draggable="false" ></a>
+                <nav>
+                    <ul>
+                        <li><a href="#">الصفحه الرئيسيه</a></li>
+                        <li class="services"> <a href="#">الخدمات</a>
+                            <ul class="dropdwen">
+                                <li><a href="./الخدمات/government.html">خدمات حكوميه</a></li>
+                                <li><a href="./الخدمات/travel-permit.html">جواز سفر  </a></li>
+                                <li><a href="./الخدمات/visas.html">تأشيرات</a></li>
+                                <li><a href="./الخدمات/hotel.html">حجز فنادق</a></li>
+                                <li><a href="./الخدمات/flight.html">حجز طيران</a></li>
+                                <li><a href="./الخدمات/tasahel.html">حجز موعد تساهيل</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./about.html">من نحن</a></li>
+                        <li><a href="./content.html"> تواصل معنا</a></li>
+                    </ul>
+                </nav>
+                <img src="./image-home/img/sliders.svg" alt="icon" class="icon">
+            </div>
+        </div>
+    </header>
+    <div class="navber"></div>
+    <section class="home" id="home">
+        <div class="container" >
+            <div class="content-home">
+                <div class="title-home"  >
+                    <p>    نـيـــو فـيــــــــــــسـتا</p>
+                    <span>للخدمات السياحية والحكومية</span>
+                </div>
+            </div>
+            <div class="services-bar">
+                <div class="content-bar">
+                    <div class="serv">
+                        <a href="./الخدمات/visas.html">
+                            <p>جواز سفر</p>
+                            <img src="./image-home/home/icon/passport.png" alt="image">
+                        </a>
+                    </div>
+                    <div class="serv">
+                        <a href="../الخدمات/travel-permit.html">
+                            <p>تأشيرات</p>
+                            <img src="./image-home/home/icon/document.png" alt="image">
+                        </a>
+                    </div>
+                    <div class="serv">
+                        <a href="#">
+                            <p> حجز فنادق</p>
+                            <img src="./image-home/home/icon/hotel.png" alt="image">
+                        </a>
+                    </div>
+                    <div class="serv">
+                        <a href="./الخدمات/flight.html">
+                            <p>جواز طيران</p>
+                            <img src="./image-home/home/icon/plane.png" alt="image">
+                        </a>
+                    </div>
+                    <div class="serv">
+                        <a href="./الخدمات/tasahel.html">
+                            <p>جواز تساهيل</p>
+                            <img src="./image-home/home/icon/embassy.png" alt="image">
+                        </a>
+                    </div>
+                    <div class="serv">
+                        <a href="./الخدمات/government.html">
+                            <p>خدمات حكومية</p>
+                            <img src="./image-home/home/icon/approved.png" alt="image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feauter container">
+        <div class="feat" data-aos="fade-up" data-aos-delay="200">
+            <img src="./image-home/home/icon/earth-globe.png" alt="image">
+            <h2>استكشف العالم</h2>
+            <span>
+                اكتشف سحر المغامرات الجديدة والذكريات التي لا تُنسى معنا
+                .نحن هنا لمساعدتك في كل خطوة من رحلتك، لضمان تجربة سلسة لا تُنسى.
+            </span> 
+        </div>
+        <div class="feat" data-aos="fade-up">
+            <img src="./image-home/home/icon/collaborate.png" alt="image">
+            <h2>راحتكم تهمنا</h2>
+            <span>
+                يحرص متخصصونا ذوو الخبرة على تزويدكم بتجربة مريحة وسهلة من خلال تنظيم جميع احتياجاتكم وحجوزاتكم.
+            </span>
+        </div>
+        <div class="feat" data-aos="fade-up" data-aos-delay="400">
+            <img src="./image-home/home/icon/money (1).png" alt="image">
+            <h2>أفضل سعر</h2>
+            <span>نولي رضاكم الأولوية من خلال تقديم أسعار تنافسية للغاية، مما يضمن لكم تجربة ممتعة.</span>
+        </div>
+    </section>
+    <!-- 1 -->
+    <section>
+        <div class="destination" >
+            <div class="container content"  data-aos="fade-right">
+                <div class="image-deatination">
+                    <img src="./image-home/home/illstratur/hotel-illustration.svg" alt="image">
+                </div>
+                <div class="data-destination">
+                    <h2>
+                        اختر أفضل فندق لإقامة مريحة واستمتع بتجربة فريدة في
+                        <span>وجهتك</span> المفضلة. احجز الآن واستمتع بإقامة لا تُنسى!
+                    </h2>
+                    <a href="#" data-aos="fade-up" target="_blank">احجز الأن</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 2 -->
+    <section>
+        <div class="destination destination-private " >
+            <div class="container content"  data-aos="fade-right">
+                <div class="data-destination">
+                    <h2>
+                        مهما كانت البلد اللي نفسك تسافرها، <span>نيوفيستا </span>هتحققلك اللي نفسك فيه حدد وجهتك وسيب الباقى علينا!
+                    </h2>
+                    <a href="ar/hotel-reservation.html" data-aos="fade-up" target="_blank">احجز الأن</a>
+                </div>
+                <div class="image-deatination">
+                    <img src="./image-home/home/illstratur/flight-illustration.svg" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- 3  -->
+    <section>
+        <div class="destination" >
+            <div class="container">
+                <div class="parent">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./image-home/home/photo/mahamed-abdallah.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./image-home/home/photo/osama-seif.png" alt="image" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./image-home/home/photo/nour-ahmed (1).png" alt="image" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./image-home/home/photo/nour-ahmed.png" alt="image" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./image-home/home/photo/osama-seif.png" alt="image" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./image-home/home/photo/taha-hassan.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span>بعض من اراء عملائنا</span>
+                        <p class="privet">
+                            كشركة، نحرص دائمًا على راحة عملائنا وتوفير بيئة مريحة ومميزة لهم
+                            ، حيث نسعى جاهدين لتقديم خدمات عالية الجودة تلبي احتياجاتهم وتجعل تجربتهم معنا مريحة ومميزة.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+    </div>
+    <section>
+        <div class="center-div">
+            <h3 class="center">التحقق من متطلبات التأشيرة</h3>
+        </div>
+        <div class="feauter container">
+            <div class="feat" data-aos="fade-up" data-aos-delay="200">
+                <img src="./image-home/home/icon/earth-globe.png" alt="image">
+                <h2>استكشف العالم</h2>
+                <span>
+                    اكتشف سحر المغامرات الجديدة والذكريات التي لا تُنسى معنا
+                    .نحن هنا لمساعدتك في كل خطوة من رحلتك، لضمان تجربة سلسة لا تُنسى.
+                </span> 
+            </div>
+            <div class="feat" data-aos="fade-up">
+                <img src="./image-home/home/icon/collaborate.png" alt="image">
+                <h2>راحتكم تهمنا</h2>
+                <span>
+                    يحرص متخصصونا ذوو الخبرة على تزويدكم بتجربة مريحة وسهلة من خلال تنظيم جميع احتياجاتكم وحجوزاتكم.
+                </span>
+            </div>
+            <div class="feat" data-aos="fade-up" data-aos-delay="400">
+                <img src="./image-home/home/icon/money (1).png" alt="image">
+                <h2>أفضل سعر</h2>
+                <span>نولي رضاكم الأولوية من خلال تقديم أسعار تنافسية للغاية، مما يضمن لكم تجربة ممتعة.</span>
+            </div>
+        </div>
+        <a href="#" data-aos="fade-up" target="_blank" class="link">المزيد        </a>
+    </section>
+    <!-- 3 -->
+    <section>
+        <div class="destination" >
+            <div class="container content"  data-aos="fade-right">
+                <div class="data-destination">
+                    <h2>
+                        خلص كل <span>اوراقك الحكوميه</span> مع نيو فيستا ,خليك مكانك واحنا هنقوم بكل معاملاتك الحكومية هنخلصهالك وانت في شغلك و هتوصلك فى الوقت والمكان اللى انت عايزه
+                    </h2>
+                    <a href="#" data-aos="fade-up" target="_blank">احجز الأن</a>
+                </div>
+                <div class="image-deatination">
+                    <img src="./image-home/home/illstratur/documents-illustration.svg" alt="image">
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- 4 -->
+    <section>
+        <div class="destination destination-private" >
+            <div class="container content"  data-aos="fade-right">
+                <div class="image-deatination">
+                    <img src="./image-home/home/illstratur/passport-illustration.svg" alt="image">
+                </div>
+                <div class="data-destination">
+                    <h2>
+                        اختر أفضل فندق لإقامة مريحة واستمتع بتجربة فريدة في
+                        <span>وجهتك</span> المفضلة. احجز الآن واستمتع بإقامة لا تُنسى!
+                    </h2>
+                    <a href="#" data-aos="fade-up" target="_blank">احجز الأن</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="info">
+                <p class="paragarph">
+                    "نيو فيستا" هى شركة متخصصة في حجز الفنادق وحجوزات الطيران
+                    وتخليص المستندات الحكومية والتأشيرات، بالإضافة
+                    إلى العديد من الخدمات الأخرى. دعنا نساعدك في تحقيق رحلات مميزة وتجارب لا تُنسى
+                </p>
+                <p>الرقم الضريبي: 686-426-760</p>
+                <p>
+                    للتواصل:
+                    <a href="tel:+2010394122">01032456122</a>
+                    <!-- "&nbsp;&nbsp;" -->
+                    <a href="tel:+2010018806">01045018806</a>
+                </p>
+                <a href="#">newvista65@gmail.com</a>
+            </div>
+            <div class="link-footer">
+                <h4>الأقسام :</h4>
+                <ul>
+                    <li>
+                        <a href="./about.html">من نحن</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">تواصل معنا</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="payment-methods">
+                <h4>طرق الدفع :</h4>
+                <div class="payment">
+                    <a href="#"><img src="./image-home/home/footer/1.png" alt="image"></a>
+                    <a href="#"><img src="./image-home/home/footer/2.png" alt="image"></a>
+                    <a href="#"><img src="./image-home/home/footer/3.png" alt="image"></a>
+                    <a href="#"><img src="./image-home/home/footer/4.png" alt="image"></a>
+                    <a href="#"><img src="./image-home/home/footer/5.png" alt="image"></a>
+                    <a href="#"><img src="./image-home/home/footer/6.png" alt="image"></a>
+                </div>
+                <div class="social">
+                    <h4>تابعنا على :</h4>
+                    <div>
+                        <a href="#"><img src="./image-home/home/icon/youtube.png" alt="link"></a>
+                        <a href="#"><img src="./image-home/home/icon/facebook.png" alt="link"></a>
+                        <a href="#"><img src="./image-home/home/icon/tiktok.png" alt="link"></a>
+                        <a href="#"><img src="./image-home/home/icon/instagram.png" alt="link"></a>
+                        <a href="#"><img src="./image-home/home/icon/whatsapp.png" alt="link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                جميع الحقوق محفوظة لشركة   <span > نيو فيستا </span> © 2026 
+            </p>
+        </div>
+        
+    </footer>
+    <script src="./javascript/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+
+            autoplay: {
+                delay: 2000, // الوقت بين كل سلايد (3 ثواني)
+                disableOnInteraction: false
+            },
+
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <script src="./javascript/index.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>

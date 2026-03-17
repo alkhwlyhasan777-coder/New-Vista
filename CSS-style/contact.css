@@ -1,0 +1,67 @@
+
+:root{
+    --first-color:  #01273f;
+    --second-color: #009dff;
+    --third-color:  #fff;
+    --fourth-color: #677169;
+    --heading-color:#212529;
+}
+.about-service{
+    display: grid;
+    grid-template-columns:  repeat(3 , 1fr) ;
+}
+.serv{
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+.serv img{
+    width: 50px;
+}
+.serv h3{
+    font-size:20px;
+    font-weight: 600;
+}
+.serv a{
+    margin: 0 !important;
+    padding: 3px !important;
+    color: var(--second-color);
+}
+.serv p{
+    font-size: 14px;
+    color: #00000051;
+}
+.social {
+    justify-content: center;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    flex-direction: row-reverse;
+}
+@media(max-width:768px){
+    .about-service {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 8px;
+    }
+    .contact-social{
+        position: relative;
+        display: flex;
+        justify-content: stretch;
+        padding: 2rem;
+        place-items: center;
+    }
+    .contact-social h4 {
+        position: absolute;
+        font-size: 22px;
+    }
+    .contact-social div{
+        margin-bottom:10px;
+        padding: 0 20px;position: absolute;
+    }
+
+}

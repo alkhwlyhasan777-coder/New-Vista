@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نـيـــو فـيــــــــــــسـتا للخدمات السياحية والحكومية</title>
+    <link rel="stylesheet" href="../CSS-style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />  <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--AOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <style>
+        
+        .swip {
+            position: relative;
+            height: 100%;
+        }
+        
+        .swip {
+            background: #f8e2e200;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;    
+        }
+        
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+        
+        .swiper-slide img {
+            display: block;
+            width: 80%;
+            margin: 1rem auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <a href="/index.html" class="logo"><img src="/image-home/img/new-logo.png" alt="logo" draggable="false" ></a>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">الصفحه الرئيسيه</a></li>
+                        <li class="services"> <a href="#">الخدمات</a>
+                            <ul class="dropdwen">
+                                <li><a href="./government.html">خدمات حكوميه</a></li>
+                                <li><a href="./travel-permit.html">جواز سفر  </a></li>
+                                <li><a href="./visas.html">تأشيرات</a></li>
+                                <li><a href="./hotel.html">حجز فنادق</a></li>
+                                <li><a href="./flight.html">حجز طيران</a></li>
+                                <li><a href="./tasahel.html">حجز موعد تساهيل</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../about.html">من نحن</a></li>
+                        <li><a href="../content.html"> تواصل معنا</a></li>
+                    </ul>
+                </nav>
+                <img src="/image-home/img/sliders.svg" alt="icon" class="icon">
+            </div>
+        </div>
+    </header>
+    <div class="navber"></div>
+    <section class=" government visas hotel" id="home">
+    </section>
+    <div class="head-government">
+        <h4>!استمتع بأفضل تجربة إقامة مع نيو فيستا</h4>
+        <p>
+            استعد لتجربة لا تُنسى في أفضل فنادقنا، حيث يلتقي كرم الضيافة بالفخامة، ويمتزج<br> التميز بالراحة والترفيه. اكتشف عالمًا من الجمال والاسترخاء في كل تفصيل.
+        </p>
+    </div>
+    <form action="#" method="post" class="form">
+        <input class="child" type="text" placeholder="الاسم بالكامل        ">
+        <div class="phone-addres">
+            <input class="child" type="text" id="address"placeholder="  البلد او المدينه">
+            <input class="child" type="number" placeholder="الهاتف            ">
+        </div>
+        <div class="phone-addres">
+            <input class="child" type="date" id="" placeholder="Leaving Date" >
+            <input class="child" type="date"  placeholder="Arrival Date">
+        </div>
+        <button type="button" id="submit" onclick="check()" class="btn-submit">تأكيد الطلب</button>
+    </form>
+    <div class="govern-document">
+        <h2>أشهر فنادق القاهره</h2>
+        <div class="swip">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="image" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="image" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="image" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="image" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="image"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="image"/>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="info">
+                <p class="paragarph">
+                    "نيو فيستا" هى شركة متخصصة في حجز الفنادق وحجوزات الطيران
+                    وتخليص المستندات الحكومية والتأشيرات، بالإضافة
+                    إلى العديد من الخدمات الأخرى. دعنا نساعدك في تحقيق رحلات مميزة وتجارب لا تُنسى
+                </p>
+                <p>الرقم الضريبي: 686-426-760</p>
+                <p>
+                    للتواصل:
+                    <a href="tel:+2010394122">01032456122</a>
+                    <!-- "&nbsp;&nbsp;" -->
+                    <a href="tel:+2010018806">01045018806</a>
+                </p>
+                <a href="mailto:newvista65@gmail.com">newvista65@gmail.com</a>
+            </div>
+            <div class="link-footer">
+                <h4>الأقسام :</h4>
+                <ul>
+                    <li>
+                        <a href="./about.html">من نحن</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">تواصل معنا</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="payment-methods">
+                <h4>طرق الدفع :</h4>
+                <div class="payment">
+                    <a href="#"><img src="/image-home/home/footer/1.png" alt="image"></a>
+                    <a href="#"><img src="/image-home/home/footer/2.png" alt="image"></a>
+                    <a href="#"><img src="/image-home/home/footer/3.png" alt="image"></a>
+                    <a href="#"><img src="/image-home/home/footer/4.png" alt="image"></a>
+                    <a href="#"><img src="/image-home/home/footer/5.png" alt="image"></a>
+                    <a href="#"><img src="/image-home/home/footer/6.png" alt="image"></a>
+                </div>
+                <div class="social">
+                    <h4>تابعنا على :</h4>
+                    <div>
+                        <a href="#"><img src="/image-home/home/icon/youtube.png" alt="link"></a>
+                        <a href="#"><img src="/image-home/home/icon/facebook.png" alt="link"></a>
+                        <a href="#"><img src="/image-home/home/icon/tiktok.png" alt="link"></a>
+                        <a href="#"><img src="/image-home/home/icon/instagram.png" alt="link"></a>
+                        <a href="#"><img src="/image-home/home/icon/whatsapp.png" alt="link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                جميع الحقوق محفوظة لشركة   <span > نيو فيستا </span> © 2026 
+            </p>
+        </div>
+        
+    </footer>
+    <div class="success">
+        <img src="../image-home/govern/correct.png" alt="">
+        <h2>Your request was successfully <br> registered!</h2>
+        <span>we will contact you as soon as possible</span>
+        <button type="button" class="confirmss">Confirm</button>
+    </div>
+    <script src="../javascript/index.js"></script>
+    <script src="../javascript/government.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+
+            autoplay: {
+                delay: 3000, // الوقت بين كل سلايد (3 ثواني)
+                disableOnInteraction: false
+            },
+
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,  
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false
+            },
+            speed: 2000,
+            breakpoints: {
+                320: {
+                slidesPerView: 1
+                },
+                768: {
+                slidesPerView: 2
+                },
+                1024: {
+                slidesPerView: 3
+                }
+            }
+        });</script>
+    <script>AOS.init();</script>
+</body>
+</html>
