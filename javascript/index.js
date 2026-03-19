@@ -31,7 +31,7 @@ const ulNavber = `
         <li><a href="./content.html">تواصل معنا</a></li>
     </ul>
 `;
-if (window.location.pathname === "/index.html") {
+if (window.location.pathname === "/index.html" ) {
     const ulNavber = `
     <ul>
         <li><a href="./index.html">الصفحه الرئيسيه</a></li>
