@@ -8,7 +8,7 @@ const section = document.createElement("div");
 const span = document.createElement("span");
     span.textContent = "الاقسام";
 const img = document.createElement("img");
-    img.src = "../image-home/img/app.png";
+    img.src = "./image-home/img/app.png";
     img.alt = "icon";
 img.classList.add("image");
 section.append(span, img)
@@ -77,3 +77,6 @@ function startAutoScroll() {
 }
 startAutoScroll();
 //////////////////////////////////////////////////////
+if (window.location.pathname === "/index.html") {
+    console.log("أنت في صفحة المنتجات");
+}
