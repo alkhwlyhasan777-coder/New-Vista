@@ -18,7 +18,7 @@ const nav = document.createElement("nav")
     
 const ulNavber = `
     <ul>
-        <li><a href="../index.html">الصفحه الرئيسيه</a></li>
+        <li><a href="./index.html">الصفحه الرئيسيه</a></li>
         <br>
         <li><a href="./الخدمات/government.html">خدمات حكوميه</a></li> 
         <li><a href="./الخدمات/travel-permit.html">جواز سفر</a></li>
@@ -27,8 +27,8 @@ const ulNavber = `
         <li><a href="./الخدمات/flight.html">حجز طيران</a></li>
         <li><a href="./الخدمات/tasahel.html">حجز موعد تسهيل</a></li>
         <hr>
-        <li><a href="../about.html">من نحن</a></li>
-        <li><a href="../content.html">تواصل معنا</a></li>
+        <li><a href="./about.html">من نحن</a></li>
+        <li><a href="./content.html">تواصل معنا</a></li>
     </ul>
 `;
 nav.insertAdjacentHTML("beforeend", ulNavber);
