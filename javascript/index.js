@@ -1,4 +1,4 @@
-
+const spanIcon = document.querySelector(".icon")
 const header = document.querySelector(".navber");
 
 
