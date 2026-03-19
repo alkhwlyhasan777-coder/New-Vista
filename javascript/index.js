@@ -1,4 +1,4 @@
-const spanIcon = document.querySelector(".icon")
+
 const header = document.querySelector(".navber");
 
 
@@ -47,6 +47,7 @@ if (window.location.pathname === "/index.html" ) {
         <li><a href="./content.html">تواصل معنا</a></li>
     </ul>
 `;
+    console.log("index")
 nav.insertAdjacentHTML("beforeend", ulNavber);
 
 header.append(nav);
