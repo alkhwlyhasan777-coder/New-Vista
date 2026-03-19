@@ -55,12 +55,12 @@ header.append(nav);
     <ul>
         <li><a href="../index.html">الصفحه الرئيسيه</a></li>
         <br>
-        <li><a href="../الخدمات/government.html">خدمات حكوميه</a></li> 
-        <li><a href="../الخدمات/travel-permit.html">جواز سفر</a></li>
-        <li><a href="../الخدمات/visas.html">تاشيرات</a></li>
-        <li><a href="../الخدمات/hotel.html">حجز فنادق</a></li>
-        <li><a href="../الخدمات/flight.html">حجز طيران</a></li>
-        <li><a href="../الخدمات/tasahel.html">حجز موعد تسهيل</a></li>
+        <li><a href="./الخدمات/government.html">خدمات حكوميه</a></li> 
+        <li><a href="./الخدمات/travel-permit.html">جواز سفر</a></li>
+        <li><a href="./الخدمات/visas.html">تاشيرات</a></li>
+        <li><a href="./الخدمات/hotel.html">حجز فنادق</a></li>
+        <li><a href="./الخدمات/flight.html">حجز طيران</a></li>
+        <li><a href="./الخدمات/tasahel.html">حجز موعد تسهيل</a></li>
         <hr>
         <li><a href="../about.html">من نحن</a></li>
         <li><a href="../content.html">تواصل معنا</a></li>
