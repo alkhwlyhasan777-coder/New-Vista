@@ -34,7 +34,7 @@ const ulNavber = `
 if (window.location.pathname === "/index.html" ) {
     const ulNavber = `
     <ul>
-        <li><a href="./index.html">الصفحه الرئيسيه</a></li>
+        <li><a href="../index.html">الصفحه الرئيسيه</a></li>
         <br>
         <li><a href="./الخدمات/government.html">خدمات حكوميه</a></li> 
         <li><a href="./الخدمات/travel-permit.html">جواز سفر</a></li>
