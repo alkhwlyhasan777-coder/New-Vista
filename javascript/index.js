@@ -34,29 +34,6 @@ const ulNavber = `
 if (window.location.pathname === "/index.html" ) {
     const ulNavber = `
     <ul>
-<<<<<<< HEAD
-        <li><a href="./index.html">الصفحه الرئيسيه</a></li>
-        <br>
-        <li><a href="../الخدمات/government.html">خدمات حكوميه</a></li> 
-        <li><a href="../الخدمات/travel-permit.html">جواز سفر</a></li>
-        <li><a href="../الخدمات/visas.html">تاشيرات</a></li>
-        <li><a href="../الخدمات/hotel.html">حجز فنادق</a></li>
-        <li><a href="../الخدمات/flight.html">حجز طيران</a></li>
-        <li><a href="../الخدمات/tasahel.html">حجز موعد تسهيل</a></li>
-        <hr>
-        <li><a href="./about.html">من نحن</a></li>
-        <li><a href="./content.html">تواصل معنا</a></li>
-    </ul>
-`;
-    console.log("index")
-nav.insertAdjacentHTML("beforeend", ulNavber);
-
-header.append(nav);
-} else {
-    const ulNavber = `
-    <ul>
-=======
->>>>>>> 008653aa3edf3a6cfadeb0f4e6e2f75274b88ea3
         <li><a href="../index.html">الصفحه الرئيسيه</a></li>
         <br>
         <li><a href="./الخدمات/government.html">خدمات حكوميه</a></li> 
@@ -137,7 +114,3 @@ function startAutoScroll() {
 }
 startAutoScroll();
 //////////////////////////////////////////////////////
-<<<<<<< HEAD
-
-=======
->>>>>>> 008653aa3edf3a6cfadeb0f4e6e2f75274b88ea3
