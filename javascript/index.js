@@ -115,6 +115,4 @@ function startAutoScroll() {
 }
 startAutoScroll();
 //////////////////////////////////////////////////////
-if (window.location.pathname === "/index.html") {
-    
-}
+
