@@ -8,12 +8,22 @@ const section = document.createElement("div");
 const span = document.createElement("span");
     span.textContent = "الاقسام";
 const img = document.createElement("img");
+if (
+    window.location.pathname === "/" ||
+    window.location.pathname.includes("index.html") ||
+    window.location.pathname.includes("content.html") ||
+    window.location.pathname.includes("about.html")
+) {
     img.src = "./image-home/img/app.png";
-    img.alt = "icon";
+} else {
+    img.src = "../image-home/img/app.png";
+}
+img.alt = "icon";
 img.classList.add("image");
 
 section.prepend(span, img)
 header.prepend(section)
+////////////////////////////////////////
 ////////////////////////////////////////
 spanIcon.addEventListener("click", function (e) {
     e.stopPropagation();  
