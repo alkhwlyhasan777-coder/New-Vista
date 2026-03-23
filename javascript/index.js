@@ -12,7 +12,8 @@ if (
     window.location.pathname === "/" ||
     window.location.pathname.includes("index.html") ||
     window.location.pathname.includes("content.html") ||
-    window.location.pathname.includes("about.html")
+    window.location.pathname.includes("about.html")||
+    window.location.pathname.includes("visas.html")
 ) {
     img.src = "./image-home/img/app.png";
 } else {
