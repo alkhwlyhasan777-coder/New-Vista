@@ -16,7 +16,7 @@ if (
 ) {
     img.src = "./image-home/img/app.png";
 } else {
-    img.src = "./image-home/img/app.png";
+    img.src = "../image-home/img/app.png";
 }
 img.alt = "icon";
 img.classList.add("image");
