@@ -81,11 +81,17 @@ ul > li a:hover{
     max-width: 150px;
 }
 
-.header nav ul{
+.header nav ul , #nav-ul{
     display: flex;
     gap: 2rem;
     direction: rtl;
     margin-top: 1rem;
+}
+/* ==========#nav-ul========= */
+@media(max-width:768px){
+    #nav-ul{
+        display: none;
+    }
 }
 
 .icon{
@@ -1194,3 +1200,7 @@ footer{
         object-fit: cover;
     }
 }
+/*  ======================================
+    ======================================================
+    ==================================================================== */
+    
