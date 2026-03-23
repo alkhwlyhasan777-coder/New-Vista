@@ -14,7 +14,7 @@ if (
     window.location.pathname.includes("content.html") ||
     window.location.pathname.includes("about.html")
 ) {
-    img.src = "../image-home/img/app.png";
+    img.src = "./image-home/img/app.png";
 } else {
     img.src = "../image-home/img/app.png";
 }
